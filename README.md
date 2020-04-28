@@ -23,7 +23,9 @@
 
 ## Listing
 ```js
-$('#input-text').jmaskPhone({
+$('#input-text').jmaskPhone(); // default options
+
+$('#input-text').jmaskPhone({ // custom options
     color: '#f00', 
     notification: 'Заполните поле',
     borderColor:'#ee5a5a', 
@@ -39,6 +41,7 @@ $('#input-text').on('error_jsmaskphone', function () {
 ```
 ## Options
 ```
+// default options
 defaults = {
     color: 'green', // color notification
     notification: 'this message to error', // custom message to error
