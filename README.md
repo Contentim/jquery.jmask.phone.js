@@ -28,10 +28,11 @@ $('#input-text').jmaskPhone({
 });
 
 $('#input-text').on('success_jsmaskphone', function () {
-
+// code
 });
 
 $('#input-text').on('error_jsmaskphone', function () {
+// code
 });
 ```
 ## Options
@@ -43,7 +44,7 @@ defaults = {
 };
 ```
 ## Output status
-После обработки данных плагин возвращает динамическое свойство data-status для <input>. Статус имеет 2 состояния:
+После обработки данных плагин возвращает динамическое свойство data-status для *input*. Статус имеет 2 состояния:
 - success
 - error
 
