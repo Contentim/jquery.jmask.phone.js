@@ -21,7 +21,7 @@
 <script src="https://unpkg.com/imask"></script>
 
 // jquery.jmask.phone.js
-<script type="text/javascript" src="jquery.jmask.phone.js"></script>
+<script src="/jquery.jmask.phone.js"></script>
 ```
 
 ## Listing
