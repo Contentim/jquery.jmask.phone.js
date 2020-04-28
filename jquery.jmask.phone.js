@@ -13,7 +13,6 @@
         $.extend(this, $.fn, {
             init : function () {
 
-                // актуальные настройки, будут индивидуальными при каждом запуске
                 options = $.extend(defaults, opts);
 
                 $('body').append('<div id="scoped_css_mask_phone"><style>.error_valid{ border-color: '+options.borderColor+'!important;</style></div>');
@@ -30,13 +29,11 @@
 
                 obj.prop('data-status', 'error');
 
-                // this.focus();
-
                 element = document.getElementById(native_element);
 
                 maskOptions = {
                     mask: '+0 000 000 00 00 0000 0000',
-                    country: 'Russia',
+                    country: 'International',
                 };
 
                 mask = IMask(element, maskOptions);
@@ -115,7 +112,7 @@
                         mask.destroy();
                         maskOptions = {
                             mask: '+0 000 000 00 00 0000 0000',
-                            country: 'unknown',
+                            country: 'International',
                         };
 
                         mask = IMask(element, maskOptions).on('complete', handler_status_field(element));
