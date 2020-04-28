@@ -5,9 +5,9 @@
         var $this = this, img, options={};
 
         defaults = {
-            color:'green',
-            notification:'',
-            borderColor:'#ee5a5a',
+            color: 'red',
+            notification: 'Error format',
+            borderColor: '#ee5a5a',
         };
 
         $.extend(this, $.fn, {
