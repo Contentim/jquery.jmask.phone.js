@@ -11,7 +11,7 @@
 Российский формат схож с международным с целью увеличения длины номера телефона, на всякий случай. 
 
 ## Relation
-Плагин зависим от [imaskjs](imaskjs) - позволяет гармонично сформировать саму маску номера телефона, но стандартный функционал не подошел для грамотного обхода проблемы учёта 3-х форматов номеров: международного, российского, украинского.
+Плагин зависим от [imaskjs](https://imask.js.org/guide.html) - позволяет гармонично сформировать саму маску номера телефона, но стандартный функционал не подошел для грамотного обхода проблемы учёта 3-х форматов номеров: международного, российского, украинского.
 
 Зависимость от **jQuery** - по-умолчанию.
 
@@ -68,7 +68,7 @@ defaults = {
 ## LICENSE
 The MIT License (MIT)
 
-Copyright (c) 2020 Ivan Goncharenko (contentim.ru)
+Copyright (c) 2020 Ivan Goncharenko ([contentim.ru](https://vk.com/contentim_ru)) or email - *contentim@yandex.ru*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
