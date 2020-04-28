@@ -28,4 +28,8 @@ defaults = {
     borderColor: '#ee5a5a', // border color input to error
 };
 ```
+## Output status
+После обработки данных плагин возвращает динамическое свойство data-status для <input>. Статус имеет 2 состояния:
+- success
+- error
 
